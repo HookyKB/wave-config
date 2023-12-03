@@ -2,7 +2,7 @@ file_format: "1"
 id: Synth Wave
 name: Synth Wave
 type: shield
-url: https://github.com/luerl21/synth-wave
+url: https://github.com/luerl21/synth_wave
 requires:
     # - seeed_xiao
     # - nice_view
