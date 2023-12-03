@@ -17,8 +17,8 @@
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
-        columns = <12>;
-        rows = <4>;
+        columns = <11>;
+        rows = <3>;
 
         map = <
 RC(0,1) RC(1,0) RC(2,0) RC(3,0) RC(4,0) RC(5,0)      RC(6,0) RC(7,0) RC(8,0) RC(9,0) RC(10,0) RC(11,0)
