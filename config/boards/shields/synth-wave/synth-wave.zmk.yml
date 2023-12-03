@@ -10,5 +10,5 @@ features:
     - keys
     # - display
 siblings:
-    - Synth_Wave_left
-    - Synth_Wave_right
+    - synth-wave-left
+    - synth-wave-right
