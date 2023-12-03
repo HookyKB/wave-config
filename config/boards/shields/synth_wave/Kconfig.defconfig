@@ -4,6 +4,9 @@
 config ZMK_BLE
 	default y
 
+config ZMK_SPLIT
+	default y
+
 if SHIELD_SYNTH_WAVE_LEFT
 
 config ZMK_KEYBOARD_NAME
@@ -15,11 +18,5 @@ config ZMK_SPLIT_ROLE_CENTRAL
 endif
 
 if SHIELD__SYNTH_WAVE_LEFT || SHIELD__SYNTH_WAVE_RIGHT
-
-config ZMK_SPLIT
-	default y
-
-config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-	default 1
 	
 endif
