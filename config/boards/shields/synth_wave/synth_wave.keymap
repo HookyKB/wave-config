@@ -4,31 +4,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-
-#include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    behaviors {
-        hm: homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            label = "homerow mods";
-            #binding-cells = <2>;
-            tapping_term_ms = <225>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-
-        tt: to_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "TO_TAP";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <225>;
-            bindings = <&mo>, <&to>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
