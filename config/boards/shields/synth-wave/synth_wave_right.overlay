@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "intro.dtsi"
+#include "synth_wave.dtsi"
 
 &default_transform {
     row-offset = <4>;
