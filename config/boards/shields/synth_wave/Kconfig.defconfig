@@ -1,16 +1,10 @@
 # Copyright (c) 2023 ZMK
 # SPDX-License-Identifier: MIT
 
-config ZMK_BLE
-	default y
-
-config ZMK_SPLIT
-	default y
-
 if SHIELD_SYNTH_WAVE_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Synth Wave"
+	default "Synth Wave Left"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
@@ -18,5 +12,16 @@ config ZMK_SPLIT_ROLE_CENTRAL
 endif
 
 if SHIELD__SYNTH_WAVE_LEFT || SHIELD__SYNTH_WAVE_RIGHT
-	
+
+config ZMK_KEYBOARD_NAME
+	default "Synth Wave Right"
+config ZMK_BLE
+	default y
+
+config ZMK_SPLIT
+	default y
+
+config BT_CTLR
+	default BT
+
 endif
