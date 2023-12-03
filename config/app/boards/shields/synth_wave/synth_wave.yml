@@ -11,3 +11,4 @@ features:
     # - display
 siblings:
     - synth_wave_left
+    - synth_wave_right
