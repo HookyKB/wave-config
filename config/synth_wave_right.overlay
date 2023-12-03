@@ -1,0 +1,20 @@
+/*
+ * Copyright (c) 2023 ZMK
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "synth_wave.dtsi"
+
+&default_transform {
+    row-offset = <4>;
+};
+
+&kscan0 {
+    gpios
+        , <&pro_micro 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        ;
+};
