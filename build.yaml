@@ -13,7 +13,7 @@
 #
 ---
 include:
-  - board: synth-wave-left
+  - board: synth-wave
     shield: synth-wave-left
-  - board: synth-wave-right
+  - board: synth-wave
     shield: synth-wave-right
