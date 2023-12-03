@@ -4,11 +4,9 @@ name: Synth Wave
 type: shield
 url: https://github.com/luerl21/synth_wave
 requires:
-    # - seeed_xiao
-    # - nice_view
+  - pro_micro
 features:
     - keys
-    # - display
 siblings:
     - synth_wave_left
     - synth_wave_right
