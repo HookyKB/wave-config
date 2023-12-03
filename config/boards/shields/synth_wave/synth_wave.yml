@@ -4,7 +4,7 @@ name: Synth Wave
 type: shield
 url: https://github.com/luerl21/synth_wave
 requires:
-  - pro_micro
+  - nice_nano_v2
 features:
     - keys
 siblings:
