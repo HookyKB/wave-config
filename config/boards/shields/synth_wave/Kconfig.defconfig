@@ -1,7 +1,7 @@
 # Copyright (c) 2023 ZMK
 # SPDX-License-Identifier: MIT
 
-config ZMK_USB
+config ZMK_BLE
 	default y
 
 if SHIELD_SYNTH_WAVE_LEFT
@@ -18,5 +18,5 @@ if SHIELD__SYNTH_WAVE_LEFT || SHIELD__SYNTH_WAVE_RIGHT
 
 config ZMK_SPLIT
 	default y
-
+	
 endif
