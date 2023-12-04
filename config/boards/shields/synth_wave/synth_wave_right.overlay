@@ -6,10 +6,6 @@
 
 #include "synth_wave.dtsi"
 
-&default_transform {
-    col-offset = <4>;
-};
-
 &kscan0 {
     gpios
         = <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
