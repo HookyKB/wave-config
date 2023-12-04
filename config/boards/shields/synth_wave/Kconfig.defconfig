@@ -4,7 +4,7 @@
 config ZMK_USB_LOGGING
 	default y
 
-if SHIELD_SYNTH_WAVE_LEFT
+if SHIELD_SYNTH_WAVE_RIGHT
 
 config ZMK_KEYBOARD_NAME
 	default "Synth Wave"
