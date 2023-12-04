@@ -7,7 +7,7 @@
 #include "synth_wave.dtsi"
 
 &default_transform {
-    col-offset = <6>;
+    col-offset = <3>;
 };
 
 &kscan0 {
