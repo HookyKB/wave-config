@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/HookyKB/zmk/tree/kscan/round_robin
+      url-base: https://github.com/Luerl21
   projects:
     - name: zmk
       remote: zmkfirmware
