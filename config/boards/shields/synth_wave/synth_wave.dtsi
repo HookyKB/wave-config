@@ -51,7 +51,7 @@
         compatible = "alps,ec11";
         a-gpios = <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
         b-gpios = <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
-        steps = <80>;
+        steps = <160>;
         status = "disabled";
         label = "encoder_left";
     };
@@ -60,7 +60,7 @@
         compatible = "alps,ec11";
         a-gpios = <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
         b-gpios = <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
-        steps = <80>;
+        steps = <160>;
         status = "disabled";
         label = "encoder_right";
     };
