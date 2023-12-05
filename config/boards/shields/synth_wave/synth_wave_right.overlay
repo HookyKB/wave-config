@@ -23,5 +23,5 @@
 };
 
 &right_encoder {
-    status = "enabled";
+    status = "okay";
 };  
