@@ -6,6 +6,10 @@
 
 #include "synth_wave.dtsi"
 
+&right_encoder {
+    status = "okay";
+};
+
 &default_transform {
     col-offset = <6>;
 };

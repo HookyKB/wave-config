@@ -6,6 +6,10 @@
 
 #include "synth_wave.dtsi"
 
+&left_encoder {
+    status = "okay";
+};
+
 &kscan0 {
     gpios
         = <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>

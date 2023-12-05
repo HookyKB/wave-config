@@ -4,6 +4,28 @@
  * SPDX-License-Identifier: MIT
  */
 
+  left_encoder: encoder_left {
+        compatible = "alps,ec11";
+        a-gpios = <14 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <15 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        steps = <80>;
+        status = "enabled";
+    };
+    
+    right_encoder: encoder_right {
+        compatible = "alps,ec11";
+        a-gpios = <14 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <15 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        steps = <80>;
+        status = "enabled";
+    };
+
+    sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&left_encoder &right_encoder>;
+        triggers-per-rotation = <20>;
+    };
+
 #include <dt-bindings/zmk/matrix_transform.h>
 &usbd {
     status = "okay";
