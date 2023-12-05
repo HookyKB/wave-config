@@ -14,12 +14,9 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-                &kp TAB &kp Q &kp W &kp E &kp R &kp T               &kp Y   &kp U     &kp I   &kp O   &kp P   &kp MINUS &kp I   &kp O   &kp P   &kp MINUS
-                &kp LSHIFT &kp A &kp S &kp D &kp F &kp G             &kp H   &kp J     &kp K   &kp L   &kp SEMICOLON    &kp SINGLE_QUOTE &kp I   &kp O   &kp P   &kp MINUS
-                &kp LCTRL &kp Z &kp X &kp C &kp V &kp B            &kp N   &kp M   &kp KP_COMMA &kp KP_DOT &kp SLASH &kp ESC &kp I   &kp O   &kp P   &kp MINUS
-                            &kp BKSP &kp LGUI &kp TAB &kp SPACE   &kp Q &kp ENTER &kp LGUI &kp RALT
-                            &kp BKSP &kp LGUI &kp TAB &kp SPACE   &kp Q &kp ENTER &kp LGUI &kp RALT
-                            &kp BKSP &kp LGUI &kp TAB &kp SPACE   &kp Q &kp ENTER &kp LGUI &kp RALT
+                &kp TAB &kp Q &kp W &kp E &kp R &kp T               &kp Y   &kp U     &kp I   &kp O   &kp P   &kp MINUS
+                &kp LSHIFT &kp A &kp S &kp D &kp F &kp G             &kp H   &kp J     &kp K   &kp L   &kp SEMICOLON    &kp SINGLE_QUOTE
+                &kp LCTRL &kp Z &kp X &kp C &kp V &kp B            &kp N   &kp M   &kp KP_COMMA &kp KP_DOT &kp SLASH &kp ESC
                             &kp BKSP &kp LGUI &kp TAB &kp SPACE   &kp Q &kp ENTER &kp LGUI &kp RALT
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
