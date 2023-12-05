@@ -19,7 +19,6 @@
                 &kp LCTRL &kp Z &kp X &kp C &kp V &kp B            &kp N   &kp M   &kp KP_COMMA &kp KP_DOT &kp SLASH &kp ESC
                             &kp BKSP &kp LGUI &kp TAB &kp SPACE   &kp Q &kp ENTER &kp LGUI &kp RALT
             >;
-
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
