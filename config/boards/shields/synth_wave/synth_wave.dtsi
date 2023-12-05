@@ -35,7 +35,18 @@
                             RC(6,1) RC(1,6) RC(6,2) RC(2,6)      RC(6,7) RC(1,12) RC(6,8) RC(2,12)
         >;
     };
-    
+
+    kscan0: kscan_0 {
+        compatible = "zmk,kscan-gpio-charlieplex";
+
+        gpios
+        = <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        ;
+    };
+
     left_encoder: encoder_left {
         compatible = "alps,ec11";
         a-gpios = <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
