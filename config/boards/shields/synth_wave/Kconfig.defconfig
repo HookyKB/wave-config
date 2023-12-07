@@ -1,6 +1,9 @@
 # Copyright (c) 2023 ZMK
 # SPDX-License-Identifier: MIT
 
+config ZMK_KSCAN_CHARLIEPLEX_WAIT_BEFORE_INPUTS
+	default 10
+
 config ZMK_USB_LOGGING
 	default y
 
