@@ -38,6 +38,7 @@
 
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-charlieplex";
+        debounce-scan-period-ms = <10>;
 
         gpios
         = <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
