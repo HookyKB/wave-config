@@ -7,7 +7,7 @@
 #include "synth_wave.dtsi"
 
 &default_transform {
-    col-offset = <6>;
+    col-offset = <7>;
 };
 
 &kscan0 {
@@ -26,4 +26,4 @@
     a-gpios = <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     b-gpios = <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     status = "okay";
-};  
+};
